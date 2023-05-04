@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="175dp"
+        android:hint="What is the body mass index (BMI)?
+The body mass index (BMI) is a measure that uses your height and weight to work out if your weight is healthy.
+
+The BMI calculation divides an adult's weight in kilograms by their height in metres squared."
+        android:textAlignment="center" />
+
+    <EditText
+
+        android:id="@+id/edittext_peso"
+        android:inputType="numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#DFDEDE"
+        android:textColor="@color/black"
+        android:padding="8dp"
+        android:textSize="18dp"
+        android:minHeight="48dp"
+        android:hint="Please enter your weight:"
+        android:maxLength="6"/>
+
+
+
+    <EditText
+
+        android:id="@+id/edittext_altura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edittext_peso"
+        android:layout_marginTop="14dp"
+        android:background="#DFDEDE"
+        android:hint="Please enter your height:"
+        android:inputType="numberDecimal"
+        android:maxLength="6"
+        android:minHeight="48dp"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <Button
+
+        android:id="@+id/btnCalcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="87dp"
+        android:text="Calculate BMI"
+        android:textColor="@color/white" />
+
+
+</RelativeLayout>
