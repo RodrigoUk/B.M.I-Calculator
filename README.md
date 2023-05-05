@@ -26,7 +26,7 @@ BMI Calculator was an app I developed taking my first steps towards Android deve
 - Improve app Layout/Styling
 
 ## Author
-Rodrigo Duarte Rodrigues (follow me on ....))
+Rodrigo Duarte Rodrigues (follow me on https://www.linkedin.com/in/rodrigo-duarte-rodrigues-073343265/)
 
 ## License
 ```
