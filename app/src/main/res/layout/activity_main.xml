@@ -48,7 +48,7 @@ The BMI calculation divides an adult's weight in kilograms by their height in me
         android:minHeight="48dp"
         android:padding="8dp"
         android:textColor="@color/black"
-        android:textSize="18dp" />
+        android:textSize="18dp"/>
 
     <Button
 

@@ -25,25 +25,15 @@ class ResultActivity : AppCompatActivity() {
 
 
 
-        /* TABELA IMC
-        MENOR QUE 18,5          MAGREZA
-        ENTRE 18,5 E 24,9       NORMAL
-        ENTRE 25,0 E 29,9       SOBREPESO I
-        ENTRE 30,0 E 39,9       OBESIDADE II
-        MAIOR QUE 40,0          OBESIDADE GRAVE III
-        */
-
-
-
         val classificacao = if (result < 18.5f){
             "UNDER WEIGHT"
         }else if (result in 18.5f..24.9f){
             "NORMAL"
-        }else if (result in 25.0f..29.9f){
+        }else if (result in 25f..29.9f){
             "OVERWEIGHT"
-        }else if (result in 30.0f..39.9f){
-            "OBESITY II"
-        }else{
+        }else if (result in 30f..39.9f){
+            "OBESITY"
+        } else {
             "SERIOUS OBESITY"
         }
 

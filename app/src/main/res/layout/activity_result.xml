@@ -53,7 +53,7 @@
     <TextView
 
         android:layout_margin="16dp"
-        android:text="LESS THAN 18.5 THINNESS"
+        android:text="LESS THAN 18.5 UNDER WEIGHT"
         android:layout_width="wrap_content"
         android:textAlignment="center"
         android:textSize="14sp"
@@ -75,7 +75,7 @@
     <TextView
 
         android:layout_margin="16dp"
-        android:text="BETWEEN 25.0 AND 29.9 OVERWEIGHT I"
+        android:text="BETWEEN 25.0 AND 29.9 OVERWEIGHT"
         android:layout_width="wrap_content"
         android:textAlignment="center"
         android:textSize="14sp"
@@ -85,7 +85,7 @@
     <TextView
 
         android:layout_margin="16dp"
-        android:text="EBETWEEN 30.0 AND 39.9 OBESITY II"
+        android:text="EBETWEEN 30.0 AND 39.9 OBESITY"
         android:layout_width="wrap_content"
         android:textAlignment="center"
         android:textSize="14sp"
@@ -95,7 +95,7 @@
     <TextView
 
         android:layout_margin="16dp"
-        android:text="GREATER THAN 40.0 SEVERE OBESITY III"
+        android:text="GREATER THAN 40.0 SERIOUS OBESITY"
         android:layout_width="wrap_content"
         android:gravity="center"
         android:textSize="14sp"
